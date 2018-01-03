@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Sample config file, do NOT modify
+ * Copy this file into config.php
+ * Modify it to fit your needs
+ * And run php optimize-vm-per-hosts.php
+ */
+
+// Number of hosts
+$hosts = 2;
+
+// Virtual machines
+$servers = array(
+  'server 1' => array('cpu' => 1, 'ram' => 1),
+  'server 2' => array('cpu' => 1, 'ram' => 1),
+);
